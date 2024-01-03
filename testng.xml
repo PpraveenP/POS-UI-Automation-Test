@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utilities.ExternalReportManager"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/POS Project/POS_Project">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+<!--            <class name="TestCases.CashRegister.Cash_Register">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_More_Amount"/>-->
+<!--                    <include name="validating_Expense_Amount"/>-->
+<!--                    <include name="validating_Add_More_Amount_Text_Box"/>-->
+<!--                    <include name="validating_Expense_Text_Box"/>-->
+<!--                    <include name="validating_Amount_Text_Box"/>-->
+<!--                    <include name="validating_Final_Given_amount"/>-->
+<!--                    <include name="validating_Handed_Over_To_Text_Box"/>-->
+<!--                    <include name="validating_Handed_Amount_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Dashboard.DashBoard_Options">-->
+<!--                <methods>-->
+<!--                    <include name="validating_DashboardButton"/>-->
+<!--                    <include name="validating_New_Order_Button"/>-->
+<!--                    <include name="validating_Pending_Order"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.FoodManagement.Add_Addons">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_Addons_Form"/>-->
+<!--                    <include name="validating_Addon_Name_Text_Box"/>-->
+<!--                    <include name="validating_Addon_Code_Text_Box"/>-->
+<!--                    <include name="validating_Addon_Price_Text_Box"/>-->
+<!--                    <include name="validating_Addon_description_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.FoodManagement.Add_Menu">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_Menu_Form"/>-->
+<!--                    <include name="validating_Food_Name_Text_Box"/>-->
+<!--                    <include name="validating_Food_Code_Text_Box"/>-->
+<!--                    <include name="validating_Food_Price_Text_Box"/>-->
+<!--                    <include name="validating_Food_description_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.FoodManagement.Add_Recipe">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_Recipe_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Inventory.Add_Inventory">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_InventoryForm"/>-->
+<!--                    <include name="validating_Add_Inventory_Product_Name"/>-->
+<!--                    <include name="validating_Product_Code_Text_Field"/>-->
+<!--                    <include name="validating_Price_Per_Unit_Text_Box"/>-->
+<!--                    <include name="validating_Quantity_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Logins.AdminLogin">-->
+<!--                <methods>-->
+<!--                    <include name="Validating_Admin_Login"/>-->
+<!--                    <include name="validating_Admin_Logout"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.ProfileSetting.POS_Setting">-->
+<!--                <methods>-->
+<!--                    <include name="validating_POS_Setting_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.ProfileSetting.Payment_Setting">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Payment_Setting_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.ProfileSetting.Store_Setting">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Store_Setting_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.ProfileSetting.Tax_Setting">-->
+<!--                <methods>-->
+<!--                    <include name="validatingTaxSettingForm"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Purchase.Add_Vendor">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_Vendor_Form"/>-->
+<!--                    <include name="validating_VendorName_Text_Box"/>-->
+<!--                    <include name="validting_Vendor_Code_Text_Box"/>-->
+<!--                    <include name="validating_Vendor_Address_Text_Box"/>-->
+<!--                    <include name="validating_Vendor_Mobile_Number_Text_Box"/>-->
+<!--                    <include name="validating_Vendor_Bank_Name_Text_Box"/>-->
+<!--                    <include name="validating_BranchName_Text_Box"/>-->
+<!--                    <include name="validating_Account_Number_TextBox"/>-->
+<!--                    <include name="validating_IFSC_Code_Text_Box"/>-->
+<!--                    <include name="validating_UPI_ID_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Purchase.Vendor_Inventory">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Vendor_Inventory_Form"/>-->
+<!--                    <include name="validating_Inventory_Code_Text_Fild"/>-->
+<!--                    <include name="validating_Quantity_Text_Box"/>-->
+<!--                    <include name="validating_Price_Per_Unit_Text_Box"/>-->
+<!--                    <include name="validating_Discount_Text_Box"/>-->
+<!--                    <include name="validating_Total_Price_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Purchase.Vendor_Payment">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Vendor_Payment_Form"/>-->
+<!--                    <include name="validating_Due_Date_Text_Box"/>-->
+<!--                    <include name="validating_BankName_Text_Fild"/>-->
+<!--                    <include name="validating_Branch_Name_Text_Box"/>-->
+<!--                    <include name="validating_Account_Number_Text_Box"/>-->
+<!--                    <include name="validating_IFSC_Code_Text_Box"/>-->
+<!--                    <include name="validating_UPI_Id_Text_Box"/>-->
+<!--                    <include name="validating_Amount_total_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.Reports.Payment">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Payment_Form"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="TestCases.RolePermission.User_Role_Access">-->
+<!--                <methods>-->
+<!--                    <include name="validating_User_Role_Access"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="TestCases.Sales.NewOrderProcess">
+                <methods>
+                    <include name="Validating_New_Order_Process"/>
+                </methods>
+            </class>
+            <class name="TestCases.Sales.Order_List">
+                <methods>
+                    <include name="validating_Order_List"/>
+                </methods>
+            </class>
+<!--            <class name="TestCases.User.Add_User">-->
+<!--                <methods>-->
+<!--                    <include name="validating_Add_User_Form"/>-->
+<!--                    <include name="validating_User_Name_Text_Box"/>-->
+<!--                    <include name="validating_User_Email_Text_Box"/>-->
+<!--                    <include name="validating_User_Contact_Text_Box"/>-->
+<!--                    <include name="validating_User_Address_Text_Box"/>-->
+<!--                    <include name="validating_User_Password_Text_Box"/>-->
+<!--                    <include name="validating_User_Conform_Password_Text_Box"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
